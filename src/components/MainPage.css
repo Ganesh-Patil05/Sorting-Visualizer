@@ -1,0 +1,19 @@
+.mainpage{
+    /* height: calc(100vh - 70px); */
+    height: 100vh;
+    width: calc(100% - 250px);
+    padding-top: 70px;
+    z-index: -2;
+}
+@media (max-width:968px) {
+    .mainpage{
+        width: 100%;
+        padding-top: 70px;
+    }
+}
+@media (max-width:633px) {
+    .mainpage{
+        padding-top: 50px;
+    }
+}
+
